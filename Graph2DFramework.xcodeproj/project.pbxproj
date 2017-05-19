@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5E14ED821ECF11A20079F2AD /* Graph2DFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E14ED801ECF11A20079F2AD /* Graph2DFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E14ED8C1ECF11BE0079F2AD /* Graph2DProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14ED881ECF11BE0079F2AD /* Graph2DProtocols.swift */; };
+		5E14ED8D1ECF11BE0079F2AD /* CircleForGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14ED891ECF11BE0079F2AD /* CircleForGraph.swift */; };
+		5E14ED8E1ECF11BE0079F2AD /* Graph2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14ED8A1ECF11BE0079F2AD /* Graph2D.swift */; };
+		5E14ED8F1ECF11BE0079F2AD /* PointForGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E14ED8B1ECF11BE0079F2AD /* PointForGraph.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E14ED7D1ECF11A20079F2AD /* Graph2DFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Graph2DFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E14ED801ECF11A20079F2AD /* Graph2DFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph2DFramework.h; sourceTree = "<group>"; };
 		5E14ED811ECF11A20079F2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E14ED881ECF11BE0079F2AD /* Graph2DProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph2DProtocols.swift; sourceTree = "<group>"; };
+		5E14ED891ECF11BE0079F2AD /* CircleForGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleForGraph.swift; sourceTree = "<group>"; };
+		5E14ED8A1ECF11BE0079F2AD /* Graph2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph2D.swift; sourceTree = "<group>"; };
+		5E14ED8B1ECF11BE0079F2AD /* PointForGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointForGraph.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				5E14ED801ECF11A20079F2AD /* Graph2DFramework.h */,
+				5E14ED881ECF11BE0079F2AD /* Graph2DProtocols.swift */,
+				5E14ED891ECF11BE0079F2AD /* CircleForGraph.swift */,
+				5E14ED8A1ECF11BE0079F2AD /* Graph2D.swift */,
+				5E14ED8B1ECF11BE0079F2AD /* PointForGraph.swift */,
 				5E14ED811ECF11A20079F2AD /* Info.plist */,
 			);
 			path = Graph2DFramework;
@@ -96,6 +108,7 @@
 					5E14ED7C1ECF11A20079F2AD = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 5CFQ86D2X7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E14ED8D1ECF11BE0079F2AD /* CircleForGraph.swift in Sources */,
+				5E14ED8F1ECF11BE0079F2AD /* PointForGraph.swift in Sources */,
+				5E14ED8E1ECF11BE0079F2AD /* Graph2D.swift in Sources */,
+				5E14ED8C1ECF11BE0079F2AD /* Graph2DProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +259,7 @@
 		5E14ED861ECF11A20079F2AD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5CFQ86D2X7;
@@ -254,6 +272,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = chalkiadoudis.com.Graph2DFramework;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +280,7 @@
 		5E14ED871ECF11A20079F2AD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 5CFQ86D2X7;
@@ -296,6 +316,7 @@
 				5E14ED871ECF11A20079F2AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
