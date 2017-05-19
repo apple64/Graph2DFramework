@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "Graph2DFramework is a simple 2D graph for positive values."
 
-  s.homepage     = "https://github.com/apple64/Graph2D-Framework"
+  s.homepage     = "https://github.com/apple64/Graph2DFramework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/apple64/Graph2D-Framework.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/apple64/Graph2DFramework.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
